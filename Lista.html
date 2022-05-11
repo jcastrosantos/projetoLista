@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link href="Lista.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
 <body>
     
+    <div class="container">
+        <header>
+            <input id="inputTarefa" type="text" placeholder="O que você vai fazer hoje?">
+            <button id="addTarefa" class="b-add">ADD</button>
+        </header>
+
+        <section class="notas">
+            <ul id="tarefas"></ul>
+        </section>
+    </div>
 </body>
 </html>
